@@ -50,7 +50,7 @@
 
       <!-- Description Section -->
       <div class="prose prose-indigo max-w-none mb-12">
-        <h2 class="text-2xl font-bold text-slate-900 mb-6">Tentang Program Keahlian</h2>
+        <h2 class="text-2xl font-bold text-slate-900 mb-6">Tentang Konsentrasi Keahlian</h2>
         <p class="text-slate-600 text-lg leading-relaxed mb-6">
           {major.description}
         </p>

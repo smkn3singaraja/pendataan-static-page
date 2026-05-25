@@ -6,7 +6,7 @@ export const load: PageLoad = ({ params }) => {
   const major = majors.find((m) => m.id === params.id);
 
   if (!major) {
-    throw error(404, 'Program Keahlian tidak ditemukan');
+    throw error(404, 'Konsentrasi Keahlian tidak ditemukan');
   }
 
   return {

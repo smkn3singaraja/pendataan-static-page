@@ -19,7 +19,7 @@
         <div class="hidden md:block">
           <div class="ml-10 flex items-baseline space-x-8">
             <a href="/" class="px-4 py-2 rounded-lg text-sm font-semibold transition-all {$page.url.pathname === '/' ? 'text-indigo-700 bg-indigo-50' : 'text-slate-600 hover:text-indigo-600 hover:bg-slate-100'}">Beranda</a>
-            <a href="/#majors" class="px-4 py-2 rounded-lg text-sm font-semibold text-slate-600 hover:text-indigo-600 hover:bg-slate-100 transition-all">Program Keahlian</a>
+            <a href="/#majors" class="px-4 py-2 rounded-lg text-sm font-semibold text-slate-600 hover:text-indigo-600 hover:bg-slate-100 transition-all">Konsentrasi Keahlian</a>
           </div>
         </div>
       </div>

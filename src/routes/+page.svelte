@@ -22,11 +22,11 @@
       <span class="block mt-2 text-slate-800">Dimulai dari Sini.</span>
     </h1>
     <p class="mt-8 text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
-      Jelajahi program keahlian unggulan di SMK Negeri 3 Singaraja. Temukan passion Anda dan kembangkan keterampilan untuk menjadi profesional di industri kreatif dan teknologi.
+      Jelajahi konsentrasi keahlian unggulan di SMK Negeri 3 Singaraja. Temukan passion Anda dan kembangkan keterampilan untuk menjadi profesional di industri kreatif dan teknologi.
     </p>
     <div class="mt-10 flex justify-center gap-4">
       <a href="#majors" class="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white rounded-full font-semibold transition-all duration-300 shadow-lg shadow-indigo-600/30 transform hover:-translate-y-1">
-        Lihat Program Keahlian
+        Lihat Konsentrasi Keahlian
       </a>
     </div>
   </div>
@@ -35,7 +35,7 @@
 <section id="majors" class="py-24 bg-white/50 backdrop-blur-sm border-t border-slate-200/50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-20">
-      <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-slate-800 mb-6">Program Keahlian</h2>
+      <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-slate-800 mb-6">Konsentrasi Keahlian</h2>
       <div class="h-1.5 w-24 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto rounded-full"></div>
     </div>
 

@@ -32,6 +32,17 @@ const imageMap: Record<string, string> = {
   DKV: '/images/dkv.jpg'
 };
 
+const posterMap: Record<string, string> = {
+  TKP: '/images/posters/poster_tkp.jpg',
+  DPIB: '/images/posters/poster_dpib.png',
+  TPM: '/images/posters/poster_tpm.jpg',
+  TPLas: '/images/posters/poster_tplas.jpg',
+  TKR: '/images/posters/poster_tkr.jpg',
+  TKJ: '/images/posters/poster_tkj.jpg',
+  TSM: '/images/posters/poster_tsm.jpg',
+  DKV: '/images/posters/poster_dkv.jpg'
+};
+
 function getYoutubeEmbedUrl(url: string) {
   let videoId = '';
   if (url.includes('youtu.be/')) {
@@ -118,10 +129,10 @@ const rawData = [
 export const majors: Major[] = rawData.map((m, i) => ({
   id: m.name.toLowerCase(),
   cover_url: imageMap[m.name] || covers[i % covers.length],
-  poster_url: posters[i % posters.length],
+  poster_url: posterMap[m.name] || posters[i % posters.length],
   short_name: m.name,
   long_name: m.long_name,
-  description: `Program keahlian ${m.long_name} (${m.name}) adalah program unggulan yang membekali siswa dengan kompetensi dan keterampilan profesional di bidangnya. Lulusan dipersiapkan untuk menghadapi tantangan industri kreatif dan teknologi masa depan.`,
+  description: `Konsentrasi keahlian ${m.long_name} (${m.name}) adalah program unggulan yang membekali siswa dengan kompetensi dan keterampilan profesional di bidangnya. Lulusan dipersiapkan untuk menghadapi tantangan industri kreatif dan teknologi masa depan.`,
   youtube_video_url: getYoutubeEmbedUrl(m.video_url),
   major_page: m.major_page
 }));
