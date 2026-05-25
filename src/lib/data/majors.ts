@@ -9,16 +9,6 @@ export interface Major {
   major_page?: string;
 }
 
-const covers = [
-  '/images/banner_rpl_1779695421143.png',
-  '/images/banner_tkj_1779695462875.png',
-  '/images/banner_dkv_1779695495376.png'
-];
-
-const posters = [
-  '/images/poster.png',
-];
-
 const imageMap: Record<string, string> = {
   TKP: '/images/tkp.jpg',
   DPIB: '/images/dpib.jpg',
@@ -38,6 +28,8 @@ const posterMap: Record<string, string> = {
   TPM: '/images/posters/poster_tpm.jpg',
   TPLas: '/images/posters/poster_tplas.jpg',
   TKR: '/images/posters/poster_tkr.jpg',
+  TAV: '/images/posters/poster_tav.jpg',
+  TITL: '/images/posters/poster_titl.jpg',
   TKJ: '/images/posters/poster_tkj.jpg',
   TSM: '/images/posters/poster_tsm.jpg',
   DKV: '/images/posters/poster_dkv.jpg'
@@ -126,10 +118,10 @@ const rawData = [
   }
 ];
 
-export const majors: Major[] = rawData.map((m, i) => ({
+export const majors: Major[] = rawData.map((m) => ({
   id: m.name.toLowerCase(),
-  cover_url: imageMap[m.name] || covers[i % covers.length],
-  poster_url: posterMap[m.name] || posters[i % posters.length],
+  cover_url: imageMap[m.name],
+  poster_url: posterMap[m.name],
   short_name: m.name,
   long_name: m.long_name,
   description: `Konsentrasi keahlian ${m.long_name} (${m.name}) adalah program unggulan yang membekali siswa dengan kompetensi dan keterampilan profesional di bidangnya. Lulusan dipersiapkan untuk menghadapi tantangan industri kreatif dan teknologi masa depan.`,
