@@ -26,7 +26,7 @@ const imageMap: Record<string, string> = {
   TPLas: '/images/tplas.jpg',
   TKR: '/images/tkr.jpg',
   TAV: '/images/te.jpg',
-  TITL: '/images/te.jpg',
+  TITL: '/images/titl.jpg',
   TKJ: '/images/tkj.jpg',
   TSM: '/images/tsm.jpg',
   DKV: '/images/dkv.jpg'
