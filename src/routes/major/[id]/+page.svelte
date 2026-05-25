@@ -82,7 +82,8 @@
         <div class="relative z-10">
           <h3 class="text-2xl md:text-3xl font-bold text-indigo-950 mb-4">Tertarik dengan {major.short_name}?</h3>
           <p class="text-indigo-700/80 text-lg mb-8 max-w-2xl mx-auto">
-            Bantu kami memahami minat Anda dengan mengisi survey singkat ini. Suara Anda sangat berarti bagi pengembangan sekolah kami.
+            Wujudkan Masa Depanmu di Jurusan {major.short_name}! Ingin tahu lebih dalam tentang jurusan ini? Yuk, bantu kami memetakan minatmu 
+            dengan mengisi survei singkat berikut. Masukanmu sangat membantu kami mempersiapkan fasilitas terbaik untuk calon siswa hebat seperti kamu!
           </p>
           <a 
             href="https://forms.gle/m6LhJjMD9Qk6yTah6" 
